@@ -31,7 +31,14 @@ body{
 	border-bottom:1px solid #2196F3;
 }
 
-
+.genarel{
+	color:#777;
+	font-size:17px;
+	font-weight:500;
+}
+.br-2{
+	border-radius:19px !important;
+}
 
 
 
