@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+
+
 /*		Google font	*/
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
@@ -24,7 +26,7 @@ body{
 	color:#673ab7 !important;
 }
 .navbar a:hover{
-	color:#2196F3 !important;
+	color:#673ab7 !important;
 }
 .active_manu{
 	font-weight:bold;
@@ -37,8 +39,35 @@ body{
 	font-weight:500;
 }
 .br-2{
-	border-radius:19px !important;
+	border-radius:20px !important;
 }
+.animated{
+	animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+	0% {transform:translateY(10px);}
+	100% {transform:translateY(-10px);}
+}
+
+
+.card-img-top {
+    height: 230px;
+}
+.card-img-top:hover{
+    transform: scale(1.12);
+	transition-duration: 1s;
+	
+}
+.card .img{
+	overflow: hidden;
+	height: 230px;
+}
+
+
+
+
+
 
 
 

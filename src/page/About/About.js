@@ -1,10 +1,11 @@
 import React from 'react';
 
+import Common from '../common';
+import img6 from '../../image/img6.jpg';
+
 function About() {
 	return (
-		<div>
-			<h1>Welcome to About page.</h1>
-		</div>
+		<Common headline= "Welcome to About page" imgsrc={img6} />
 	);
 }
 
