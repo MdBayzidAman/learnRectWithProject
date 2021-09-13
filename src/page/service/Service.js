@@ -23,7 +23,7 @@ function Sevice() {
 		<div>
 			<h1 className="mt-5 text-center" >Our Services.</h1>
 		</div>
-		<div className="container-fluid mt-5" >
+		<div className="container-fluid my-5" >
 			<div className="row">
 				<div className="col-10 mx-auto">
 					<div className="row gy-4">
