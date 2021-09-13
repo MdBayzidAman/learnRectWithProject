@@ -21,10 +21,10 @@ function App() {
 	<>
 		<Navbar/>
 		<Switch>
-			<Route exact path="/" component={Home} />
-			<Route  path="/about" component={About} />
-			<Route  path="/contact" component={Contact} />
-			<Route  path="/service" component={Service} />
+			<Route exact path="/learnRectWithProject/" component={Home} />
+			<Route  path="/learnRectWithProject/about" component={About} />
+			<Route  path="/learnRectWithProject/contact" component={Contact} />
+			<Route  path="/learnRectWithProject/service" component={Service} />
 			<Route component={Notfound} />
 		</Switch>
 		
