@@ -15,7 +15,7 @@ function Common(props) {
 								<div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" >
 									<h1>{props.headline}</h1>
 									<p className="my-3 genarel">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a auctor neque. Praesent commodo, massa non vestibulum cursus, sem magna molestie tellus,
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a auctor neque. Praesent commodo, massa non vestibulum cursus, asem magna molestie tellus,
 									</p>
 									<div className="mt-3">
 										<NavLink to="/service" className="btn btn-outline-primary br-2" >
